@@ -1,0 +1,19 @@
+# Ignorar archivos DLL y PYD grandes
+env/Lib/site-packages/cv2/cv2.pyd
+env/Lib/site-packages/llvmlite/binding/llvmlite.dll
+
+# Ignorar entorno virtual
+env/
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración del editor de texto
+.vscode/
+.idea/
+
+# Ignorar otros archivos temporales
+*.log
+*.tmp
+*.swp
